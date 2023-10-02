@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.scss';
 import './App.css';
 import { 
   BrowserRouter as Router, 
@@ -25,7 +26,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
-      <HomePage />
+     
       <Footer />
     </Router>
   );

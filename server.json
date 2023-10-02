@@ -1,0 +1,33 @@
+{
+    "myBudget": [
+    {
+        "title": "Housing",
+        "budget": 340
+    },
+    {
+        "title": "Electricity",
+        "budget": 133
+    },
+
+    {
+        "title": "Groceries",
+        "budget": 222
+    },
+    {
+        "title": "Transportation",
+        "budget": 200
+    },
+    {
+        "title": "Savings",
+        "budget": 300
+    },
+    {
+        "title": "Entertainment",
+        "budget": 275
+    },
+    {
+        "title": "others",
+        "budget": 150
+    }    
+]
+}

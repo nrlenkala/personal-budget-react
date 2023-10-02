@@ -1,8 +1,10 @@
 import React from 'react';
+import '../App.css';
 
 import { 
     Link 
-    } from 'react-router-dom';
+  } from 'react-router-dom';
+
 
 function Menu() {
   return (
@@ -12,11 +14,12 @@ function Menu() {
       itemScope
       itemType="https://schema.org/SiteNavigationElement"
     >
-      <ul> 
-        <li><Link itemProp="url" to="/" >Homepage</Link></li> 
-        <li><Link itemProp="url" to="/about.html">About Us</Link></li> 
-        <li><Link itemProp="url" to="/login.html" >Sign In</Link></li> 
-      </ul> 
+        <ul>
+            <li><Link itemProp="url" to="/">Homepage</Link></li>
+            <li><Link itemProp="url" to="/about">About</Link></li>
+            <li><Link itemProp="url" to="/login">Login</Link></li>
+            
+        </ul>
     </nav>
   );
 }
